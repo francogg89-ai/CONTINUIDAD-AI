@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Franco_Bemvelon/work-claude-y/**)",
+      "Read(//c/Franco_Bemvelon/audit-chatgpt-y/**)",
+      "Read(//c/Franco_Bemvelon/Bemvelon-automatizado/**)",
+      "Read(//c/Franco_Bemvelon/METODO-AI/**)",
+      "Read(//c/Franco_Bemvelon/MANIFIESTOS-TRABAJOS-AI/**)",
+      "Read(//c/Franco_Bemvelon/work-claude-e/**)",
+      "Read(//c/Franco_Bemvelon/audit-chatgpt-e/**)",
+      "Edit(//c/Franco_Bemvelon/work-claude-y/**)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y status *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y log *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y show *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y diff *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y add *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y commit *)",
+      "Bash(git -C C:/Franco_Bemvelon/work-claude-y push origin *)"
+    ],
+    "deny": [
+      "Edit(//c/Franco_Bemvelon/audit-chatgpt-y/**)",
+      "Edit(//c/Franco_Bemvelon/Bemvelon-automatizado/**)",
+      "Edit(//c/Franco_Bemvelon/METODO-AI/**)",
+      "Edit(//c/Franco_Bemvelon/MANIFIESTOS-TRABAJOS-AI/**)",
+      "Edit(//c/Franco_Bemvelon/work-claude-e/**)",
+      "Edit(//c/Franco_Bemvelon/audit-chatgpt-e/**)"
+    ]
+  }
+}

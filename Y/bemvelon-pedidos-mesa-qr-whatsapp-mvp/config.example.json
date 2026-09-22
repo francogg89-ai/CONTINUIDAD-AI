@@ -1,0 +1,25 @@
+{
+  "work_id": "bemvelon-pedidos-mesa-qr-whatsapp-mvp",
+  "method_sha": "0f5fd48ae57752419e9e63faa6b69071df966377",
+  "repositories": {
+    "AUDITOR": "francogg89-ai/audit-chatgpt-y",
+    "CONSTRUCTOR": "francogg89-ai/work-claude-y"
+  },
+  "locator": "METODO_AI_INIT_V1|WORK_ID=bemvelon-pedidos-mesa-qr-whatsapp-mvp|CARRIL=Y|CONSTITUTION_REPO=francogg89-ai/MANIFIESTOS-TRABAJOS-AI|CONSTITUTION_PATH=manifiestos/bemvelon-pedidos-mesa-qr-whatsapp-mvp/CONSTITUCION_INICIAL.md|CONSTITUTION_SHA=449a9a05e406cf0c821c044908887f88a0dcc1f1",
+  "browser_timeout_seconds": 900,
+  "claude": {
+    "cwd": "C:/Franco_Bemvelon/work-claude-y",
+    "permission_mode": "default",
+    "tools": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "Bash",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "settings_file": "C:/Franco_Bemvelon/CONTINUIDAD-AI/Y/bemvelon-pedidos-mesa-qr-whatsapp-mvp/permisos-claude.json"
+  }
+}
